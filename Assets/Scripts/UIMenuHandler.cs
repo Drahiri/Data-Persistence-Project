@@ -3,11 +3,15 @@ using UnityEditor;
 #endif
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class UIMenuHandler : MonoBehaviour
 {
+    public TextMeshProUGUI nameField;
+
     public void StartGame()
     {
+        DataPersistance.instance.playerName = nameField.text;
         SceneManager.LoadScene(1);
     }
 
