@@ -75,11 +75,11 @@ public class MainManager : MonoBehaviour
     {
         if (m_Points > PersistenceData.instance.highScore)
         {
-            PersistenceData.instance.highScorePlayerName = PersistenceData.instance.playerName;
+            PersistenceData.instance.highScorePlayerName = PersistenceData.instance.currentPlayerName;
             PersistenceData.instance.highScore = m_Points;
+            PersistenceData.instance.SaveHighscore();
+            SetBestScoreText();
         }
-
-        SetBestScoreText();
 
         m_GameOver = true;
         GameOverText.SetActive(true);

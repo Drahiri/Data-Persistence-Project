@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 265737517}
   - component: {fileID: 265737516}
   m_Layer: 5
-  m_Name: High Score Text
+  m_Name: Highscore Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c9ce222e386624da3e1e6ed30c4052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerName: 
+  currentPlayerName: 
   highScorePlayerName: 
   highScore: 0
 --- !u!4 &502558079
@@ -735,7 +735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c9ce222e386624da3e1e6ed30c4052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerName: 
+  currentPlayerName: 
   highScorePlayerName: 
   highScore: 0
 --- !u!1 &569665561
@@ -1665,7 +1665,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 304313e5e49d7fe45aa6872c37e24377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameField: {fileID: 870429038}
+  nameField: {fileID: 822245561}
+  highscoreText: {fileID: 265737516}
 --- !u!1 &1828637914
 GameObject:
   m_ObjectHideFlags: 0
