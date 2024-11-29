@@ -1,10 +1,12 @@
 using UnityEngine;
 
-public class DataPersistance : MonoBehaviour
+public class PersistenceData : MonoBehaviour
 {
-    public static DataPersistance instance;
+    public static PersistenceData instance;
 
     public string playerName;
+    public string highScorePlayerName;
+    public int highScore;
 
     private void Awake()
     {

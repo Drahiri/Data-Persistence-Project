@@ -685,8 +685,9 @@ GameObject:
   m_Component:
   - component: {fileID: 502558079}
   - component: {fileID: 502558078}
+  - component: {fileID: 502558080}
   m_Layer: 0
-  m_Name: DataPersistance
+  m_Name: PersistenceData
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -705,6 +706,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerName: 
+  highScorePlayerName: 
+  highScore: 0
 --- !u!4 &502558079
 Transform:
   m_ObjectHideFlags: 0
@@ -720,6 +723,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &502558080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502558077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c9ce222e386624da3e1e6ed30c4052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: 
+  highScorePlayerName: 
+  highScore: 0
 --- !u!1 &569665561
 GameObject:
   m_ObjectHideFlags: 0

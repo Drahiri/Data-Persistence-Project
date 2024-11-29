@@ -11,7 +11,7 @@ public class UIMenuHandler : MonoBehaviour
 
     public void StartGame()
     {
-        DataPersistance.instance.playerName = nameField.text;
+        PersistenceData.instance.playerName = nameField.text;
         SceneManager.LoadScene(1);
     }
 
